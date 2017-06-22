@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.josecuentas.android_customfont.MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Default normal"
+        android:gravity="center_horizontal"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:textSize="18sp"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="San Francisco Display"
+        android:gravity="center_horizontal"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        />
+
+    <com.josecuentas.android_customfont.CustomTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello World! normal"
+        android:textSize="18sp"
+        app:font="san_francisco_display"
+        app:textStyle="normal"
+        />
+
+    <com.josecuentas.android_customfont.CustomTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello World! semibold"
+        android:textSize="18sp"
+        app:font="san_francisco_display"
+        app:textStyle="semibold"
+        />
+
+    <com.josecuentas.android_customfont.CustomTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello World! bold"
+        android:textSize="18sp"
+        app:font="san_francisco_display"
+        app:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SF UI Display"
+        android:gravity="center_horizontal"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        />
+
+    <com.josecuentas.android_customfont.CustomTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello World! normal"
+        android:textSize="18sp"
+        app:font="sf_ui_display"
+        app:textStyle="normal"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SF UI Text"
+        android:gravity="center_horizontal"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        />
+
+    <com.josecuentas.android_customfont.CustomTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello World! normal"
+        android:textSize="18sp"
+        app:font="sf_ui_text"
+        app:textStyle="normal"
+        />
+
+    <com.josecuentas.android_customfont.CustomTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Hello World! semi bold"
+        android:textSize="18sp"
+        app:font="sf_ui_text"
+        app:textStyle="semibold"
+        />
+
+</LinearLayout>
