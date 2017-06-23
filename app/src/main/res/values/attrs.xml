@@ -1,14 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--
+    add pb
+    modifique la inicial por un problema que dio el ide al no poner algo que distinga el
+    android:textStyle con
+    app:textStyle
+
+    Asi que cambie esto por
+    app:pb_textStyle
+    para que no tengan problemas para trabajar en el modo grafico, espero que ese bug del ide lo
+    soporten en versiones posteriores.
+
+    Error:
+    ClassCastException: com.android.tools.idea.uibuilder.property.NlPropertyItem cannot be cast to com.android.tools.idea.uibuilder.property.NlFlagPropertyItem
+-->
 <resources>
     <declare-styleable name="CustomTextView">
 
-        <attr name="font" format="enum">
+        <attr name="pb_font" format="enum">
             <enum name="san_francisco_display" value="1"/>
             <enum name="sf_ui_display" value="2"/>
             <enum name="sf_ui_text" value="3"/>
         </attr>
 
-        <attr name="textStyle" format="enum">
+        <attr name="pb_textStyle" format="enum">
             <enum name="normal" value="0"/>
             <enum name="bold" value="1"/>
             <enum name="semibold" value="4"/>

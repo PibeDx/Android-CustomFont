@@ -38,8 +38,7 @@
         android:layout_height="wrap_content"
         android:text="Hello World! normal"
         android:textSize="18sp"
-        app:font="san_francisco_display"
-        app:textStyle="normal"
+
         />
 
     <com.josecuentas.android_customfont.CustomTextView
@@ -47,8 +46,7 @@
         android:layout_height="wrap_content"
         android:text="Hello World! semibold"
         android:textSize="18sp"
-        app:font="san_francisco_display"
-        app:textStyle="semibold"
+
         />
 
     <com.josecuentas.android_customfont.CustomTextView
@@ -56,8 +54,8 @@
         android:layout_height="wrap_content"
         android:text="Hello World! bold"
         android:textSize="18sp"
-        app:font="san_francisco_display"
-        app:textStyle="bold"
+        app:pb_font="san_francisco_display"
+        app:pb_textStyle="bold"
         />
 
     <TextView
@@ -74,8 +72,8 @@
         android:layout_height="wrap_content"
         android:text="Hello World! normal"
         android:textSize="18sp"
-        app:font="sf_ui_display"
-        app:textStyle="normal"
+        app:pb_font="sf_ui_display"
+        app:pb_textStyle="normal"
         />
 
     <TextView
@@ -92,8 +90,8 @@
         android:layout_height="wrap_content"
         android:text="Hello World! normal"
         android:textSize="18sp"
-        app:font="sf_ui_text"
-        app:textStyle="normal"
+        app:pb_font="sf_ui_text"
+        app:pb_textStyle="normal"
         />
 
     <com.josecuentas.android_customfont.CustomTextView
@@ -101,8 +99,8 @@
         android:layout_height="wrap_content"
         android:text="Hello World! semi bold"
         android:textSize="18sp"
-        app:font="sf_ui_text"
-        app:textStyle="semibold"
+        app:pb_font="sf_ui_text"
+        app:pb_textStyle="semibold"
         />
 
 </LinearLayout>

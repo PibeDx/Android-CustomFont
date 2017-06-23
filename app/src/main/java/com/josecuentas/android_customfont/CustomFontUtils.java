@@ -26,10 +26,10 @@ public class CustomFontUtils {
                 attrs,
                 R.styleable.CustomTextView);
 
-        int fontName = attributeArray.getInt(R.styleable.CustomTextView_font, 1);
+        int fontName = attributeArray.getInt(R.styleable.CustomTextView_pb_font, 1);
 
         // check if a special textStyle was used (e.g. extra bold)
-        int textStyle = attributeArray.getInt(R.styleable.CustomTextView_textStyle, Typeface.NORMAL);
+        int textStyle = attributeArray.getInt(R.styleable.CustomTextView_pb_textStyle, Typeface.NORMAL);
 
         // if nothing extra was used, fall back to regular android:textStyle parameter
         if (textStyle == 0) {
